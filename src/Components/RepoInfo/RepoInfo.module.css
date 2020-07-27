@@ -1,0 +1,55 @@
+.RepoInfo{
+    border-bottom: 1px solid var(--color-grey-dark);
+    padding: 2rem 0;
+    font-size: 1.6rem;
+}
+
+.RepoHeader{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+@media(max-width:700px)
+{
+    .RepoHeader{
+    display: block;
+    }
+    .RepoYear{
+        margin: 1rem 0;
+    }
+}
+
+.RepoName{
+    color:var(--color-highlighted);
+    text-transform: capitalize;
+}
+
+.RepoYear{
+    color: var(--color-grey-text-light);
+}
+
+.LangRights{
+    color: var(--color-grey-text-light);
+    margin: 1rem 0;
+}
+
+.desc{
+    margin-bottom: 1rem;
+    color: var(--color-grey-text-light);
+}
+
+.info{
+    color: var(--color-grey-info);
+}
+
+.link:hover,.link:link,.link:active,.link:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    }
+
+.Highlighted{
+    color:var(--color-highlighted);
+}

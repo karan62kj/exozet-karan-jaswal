@@ -1,0 +1,39 @@
+.ResultBox
+{
+    background-color: #fff;
+    width: 50vw;
+    margin:0 auto;
+    box-shadow: 0  2px 2px rgba(0, 0, 0, 0.637);
+    animation-name: top-in;
+    animation-duration: 5s ;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    padding: 5rem;
+    overflow: hidden;
+    transition: all .2s ease;
+}
+
+@media(max-width:1000px)
+{
+    .ResultBox{
+        width: 90%;
+    }
+}
+
+@keyframes top-in{
+    0%{
+      height: 0;
+    }
+
+    25%{
+      height: 25%;
+    }
+
+    75%{
+      height: 75%;
+    }
+  
+    100%{
+      height: auto;
+    }
+  }

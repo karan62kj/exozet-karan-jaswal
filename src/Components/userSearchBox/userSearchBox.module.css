@@ -1,0 +1,35 @@
+.SearchBox{
+    padding: 5rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    width: 60vw;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    box-decoration-break: clone;
+    z-index: 1;
+}
+
+@media(max-width:1000px)
+{
+    .SearchBox{
+        width: 98%;
+    }
+
+}
+
+@media(max-width:500px)
+{
+    .SearchBox{
+        display: block;
+    }
+
+}
+
+.HeadingPrimary{
+    font-size: 2rem;
+    color:var(--color-grey-text);
+    flex-basis: 100%;
+}

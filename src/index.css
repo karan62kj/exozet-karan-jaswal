@@ -1,0 +1,45 @@
+
+/* RESET USER AGENT STYLESHEET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TO MAKE 1rem = 10px */
+html{
+  font-size: 62.5%;
+}
+
+@media(max-width:1000px)
+{
+  html{
+    font-size: 57%;
+  }
+
+}
+
+/* ALL THE CSS VARIABLES USED ACROSS THE APP*/
+:root{
+  --color-grey-light:rgb(240, 240, 240);
+  --color-grey-dark:rgb(161, 161, 161);
+  --color-white:#fff;
+  --color-grey-text:rgb(65, 65, 65);
+  --shadow:0 3px 7px black;
+  --color-grey-light-2:rgb(211, 211, 211);
+  --color-red-gradient: linear-gradient(to bottom,rgb(207, 87, 87),rgb(187, 94, 94));
+  --color-grey-info:rgb(109, 107, 107);
+  --color-grey-text-light:rgb(141, 140, 140);
+  --color-highlighted:rgb(211, 93, 93);
+}
+
+
+/* SET FONT FAMILY OF BODY*/
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

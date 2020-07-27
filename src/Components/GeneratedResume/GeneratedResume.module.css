@@ -1,0 +1,51 @@
+
+
+.username{
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: var(--color-grey-text);
+}
+
+.level{
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--color-grey-text-light);
+  margin: 1rem 0;
+}
+
+.link:hover,.link:link,.link:active,.link:visited{
+text-decoration: none;
+font-size: 1.6rem;
+}
+
+.gitlink{
+display: block;
+margin: 2rem 0;
+}
+
+.highlighted{
+  color:var(--color-highlighted);
+}
+
+.headings{
+  font-size: 2rem;
+  color: var(--color-grey-text);
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.information
+{
+  font-size: 1.6rem;
+  color: var(--color-grey-info);
+}
+
+.languages
+{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+   grid-column-gap:2rem;
+   width: 100%;
+   grid-auto-rows: 1fr;
+}
+
